@@ -10,4 +10,48 @@
         crossorigin="anonymous"></script>
 </head>
 <body>
+    <form id="formularz">
+        <h1>Wizytowka</h1>
+        <p>Imie i Nazwisko</p>
+        <input type="text" id="ImieiNazwisko">
+
+        <p>Stanowisko</p>
+        <input type="text" id="Stanowisko">
+
+        <p>Telefon</p>
+        <input type="text" id="Telefon">
+
+        <p>E-mail</p>
+        <input type="text" id="Email">
+
+        <p>Kolor Tła</p>
+            <select id="tlo">
+                <option>#6942ee</option>
+                <option>#ff9831</option>
+                <option>#20c747</option>
+                <option>#a61740</option>
+            </select>
+
+        <p>Rozmiar Czcionki</p>
+            <select id="czcionka">
+                <option>13px</option>
+                <option>15px</option>
+                <option>17px</option>
+            </select>
+
+        <input type="checkbox" id="E-mail">Pokaż E-mail
+        <input type="checkbox" id="Trybciemny">Tryb Ciemny
+
+        <button type="submit">Zatwierdz</button>
+        <p id="komunikat"></p>
+    </form>
+
+    <h1>Podglad wizytowki</h1>
+    <div id="Wizytowka">
+        <p id="PodgladImieiNazwisko">Imie i Nazwisko</p>
+        <p id="PodgladStanowisko">Stanowisko</p>
+        <p id="PodgladTelefon">Telefon</p>
+        <p id="PodgladEmail">Email</p>
+    </div>
 </body>
+</html>
